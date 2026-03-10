@@ -1,0 +1,33 @@
+{
+  "name": "wokorach-air-quality",
+  "version": "1.0.0",
+  "private": true,
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/50a66a82-6e7a-4f3c-b689-970961681ca3/deploy-status)](https://app.netlify.com/sites/frosty-allen-dc7da1/deploys)",
+  "license": "ISC",
+  "author": "dominic-wokorach",
+  "type": "commonjs",
+  "main": "babel.config.js",
+  "scripts": {
+    "dev": "npm run develop",
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "test": "jest"
+  },
+  "dependencies": {
+    "buefy": "^0.9.10",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-i18n": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@vue/test-utils": "^1.2.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.1.1",
+    "jest": "^27.1.1",
+    "jest-serializer-vue": "^2.0.2",
+    "vue-jest": "^3.0.7",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
